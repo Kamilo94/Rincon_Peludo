@@ -1,0 +1,272 @@
+body{
+background:#e8e8e8;
+}
+
+
+/*Barra de navegacion*/
+.bg-primary{
+    background-image:linear-gradient(#0c0c0c,#0c0c0c) !important ;
+    
+}
+
+
+/*Boton de Inicio*/
+.btn-primary{
+    background:#0c0c0c !important ;
+    border-color: #e8e8e8 !important;
+    color: #e8e8e8 !important;
+   
+}
+
+.btn-primary:hover{
+    background: #e8e8e8 !important;
+    color: #0c0c0c !important;
+}
+
+/*Enlaces*/
+.nav-link{
+    color: #e8e8e8 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.nav-link:hover{
+    color: #baa54a !important;
+}
+
+
+/*Fondo de la barra enlace*/
+.bg{
+  background-color: #404040;
+  color: #e8e8e8;
+}
+
+
+
+/*Foter - barra de abajo*/
+.bg-secondary{
+    background-image:linear-gradient(#0c0c0c,#0c0c0c) !important ;
+    color: #e8e8e8 !important;
+}
+
+
+
+/*ventana emergente*/
+ 
+  
+  /*Quitar check*/
+  #btn-modal {
+    display: none;
+  }
+  
+  /*Desplegar ventana*/
+  .container-modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  /*Ocultar la ventana Modal*/
+  #btn-modal:checked ~ .container-modal {
+    display: flex;
+  }
+  
+  .content-modal {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 4rem 0 #0c0c0c;
+  }
+  
+  .content-modal h2 {
+    margin-bottom: 3rem;
+    justify-content: center;
+    display: flex;
+    color: #0c0c0c;
+  }
+
+
+
+/*Cerrar la ventana modal dando click en cualquier parte porfuera del recuadro*/  
+  .cerrar-modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+
+  
+  @media screen and (max-width: 800px) {
+    .content-modal {
+      width: 90%;
+    }
+  }
+  
+
+/*Estilo de las tarjetas card*/
+.card{
+  border-radius: 10px;
+  width: 18rem;
+  overflow: hidden;
+  margin: 1.5rem;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition: all 300ms;
+  box-shadow: 0px 0px 15px 10px #a0a0a0;
+}
+
+.card-image{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  transition: all 500ms;
+  height: 465px;
+}
+
+.card-title, .card-text, .price{
+  margin-bottom: 1rem;
+}
+
+.card-body{
+  color: white;
+  padding: 1rem;
+  padding-top: 11rem;
+  position: absolute;
+  height: 467px;
+  background: linear-gradient(360deg, #141414, #dbe72e ,transparent);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 500ms;
+}
+
+
+.card:hover > img{
+  transform: scale(1.1);
+}
+
+.card:hover > .card-body {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-title{
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.card-text{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/*inicio tarjeta*/
+
+.imagen {
+  box-shadow: 0 0 60px 0;
+  color: #0c0c0c;
+  border-radius: 15px;
+}
+
+
+.tarjeta-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e8e8e8;
+}
+
+
+.tarjeta2 {
+  background: #0c0c0c;
+  border-radius: 50px;
+  width: 100% !important;
+  height: auto;
+  color: #e8e8e8;
+  display: flex;
+  
+  
+}
+
+
+/*fin tarjeta*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Formulario*/
+
+    
+  /*Estilo Fondo*/
+  
+  .fondo {
+    background-image: url(../assets/img/registro.jpg);
+    background-size: cover;
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+    
+  }
+  
+  /*Estilo Caja*/
+  
+  .caja {
+    margin: 4rem;
+    box-shadow: 0 0 4rem 0 #0c0c0c;
+        
+  }
+
+  .bg-caja{
+    background-image:linear-gradient(#e8e8e8,#404040) !important ;
+    
+}
+
+  
+  
